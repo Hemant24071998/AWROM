@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: top;
+    font:inherit;
+}
+
+body{
+ -webkit-font-smoothing:"antialised";
+ color: #243238;
+ height: 100%;
+ font-size: 15px;
+ line-height: 1.7;
+ font-weight: 300;
+ font-family: sans-serif;
+ -webkit-text-size-adjust:none;
+ display:flex;
+ background-color: lightgrey;
+}
+.side-navbar{
+  position: fixed;
+  z-index: 999;
+  top: 56px;
+  right:0;
+  width: 40px;
+  background: rgba(27, 17, 13, 0.85);
+}
