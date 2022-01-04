@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
-/* ------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
 /* Custom properties   */
 /* ------------------- *//*---custom properties---*/
 
@@ -26,6 +26,7 @@
     --ff-serif: "Bellefair", serif;
     --ff-sans-cond: "Barlow Condensed", sans-serif;
     --ff-sans-normal: "Barlow", sans-serif;
+    --ff-PT-serif:'Nunito Sans', sans-serif;
 }
 /* ------------------- */
 /* Reset               */
@@ -129,6 +130,7 @@ select{
 .ff-serif { font-family: var(--ff-serif); } 
 .ff-sans-cond { font-family: var(--ff-sans-cond); } 
 .ff-sans-normal { font-family: var(--ff-sans-normal); } 
+.ff-PT.serif{font-family: var(--ff-PT-serif);}
 
 .letter-spacing-1 { letter-spacing: 4.75px; } 
 .letter-spacing-2 { letter-spacing: 2.7px; } 
@@ -237,3 +239,13 @@ select{
     color: var(--clr-gold);
 
 }
+.logo{
+    color: #f9c307;
+    color: var(--clr-gold);
+   display: inline-flex; 
+    font-family: var(--ff-PT-serif);
+}
+/* ------------------- */
+/* Compontents         */
+/* ------------------- */
+
