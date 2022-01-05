@@ -112,6 +112,10 @@ select{
     margin-inline: auto;
     max-width: 80rem;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: ;
+}
 .sr-only {
     position: absolute; 
     width: 1px;
@@ -246,6 +250,6 @@ select{
     font-family: var(--ff-PT-serif);
 }
 /* ------------------- */
-/* Compontents         */
+/* page specific components      */
 /* ------------------- */
 
